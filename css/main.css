@@ -277,6 +277,7 @@ label {
 }
 .socialLinks {
     margin-top: 10px;
+    position: relative;
 }
 /*-----footer-----*/
 .footer {
