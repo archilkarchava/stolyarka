@@ -183,7 +183,7 @@ label {
     position: absolute;
     text-align: center;
 }
-.box * {
+.box h1, .box p {
     padding-bottom: 50px;
 }
 .box h1 {
