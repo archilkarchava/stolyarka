@@ -1,0 +1,29 @@
+/*-----Global-----*/
+.button {
+    behavior: url(/css/PIE.htc);
+    border-radius: 100px;
+}
+
+/*-----header-----*/
+.box {
+    margin: -175px 0 0 -267px;
+}
+
+/*-----whyUs-----*/
+.whyUs p {
+    margin: -88px 0 0 -300px;
+}
+
+/*-----work-----*/
+
+/*-----whatWeDo-----*/
+
+/*-----contactUs-----*/
+.contactBox {
+    width: 550px;
+    height: 272px;
+    margin: -176px 0 0 -335px;
+}
+/*-----footer-----*/
+
+/*-----Responsive-----*/

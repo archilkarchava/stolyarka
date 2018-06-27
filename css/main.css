@@ -1,0 +1,291 @@
+/*-----Global-----*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+html {
+    font-family: montserrat, sans-serif;
+}
+body {
+    width: 100%;
+}
+.button {
+    border-radius: 100px;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    padding-right: 34px;
+    padding-left: 34px;
+    color: black;
+    background-color: white;
+    display: inline-block;
+    border: 0 none;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-weight: 700;
+    background-image: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+h1 {
+    line-height: 1.23;
+    font-size: 36px;
+    font-weight: 600;
+}
+h2 {
+    line-height: 1.35;
+    font-size: 24px;
+    font-weight: 600;
+}
+p {
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+/* ul {
+    list-style-type: none;
+    margin-top: 30px;
+}
+li {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+} */
+
+/*-----nav-----*/
+
+.navWrapper {
+    width: 100%;
+    display: table;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    background: white;
+}
+
+.logo {
+    font-size: 36px;
+    float: left;
+}
+
+.nav {
+    height: 100px;
+    line-height: 100px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nav ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    margin: 0 auto;
+}
+
+.nav li {
+    padding: 0 18px;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline;
+}
+
+.tel {
+    float: right;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* 
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+#toggle {
+    display: none;
+} */
+
+
+/*-----header-----*/
+.header {
+    padding-top: 100px;
+}
+.header > .background, .header > .filter, .header > .container {
+    height: 650px;
+    width: 100%;
+}
+
+.header > .background {
+    z-index: 1;
+    background:url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.header > .filter {
+    z-index: 2;
+    top: 100px;
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.30), rgba(0,0,0,0.60));
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.30), rgba(0,0,0,0.60));
+    background-image: -o-linear-gradient(top, rgba(0,0,0,0.30), rgba(0,0,0,0.60));
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.30), rgba(0,0,0,0.60));
+    background-image: linear-gradient(top, rgba(0,0,0,0.30), rgba(0,0,0,0.60));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#b2000000', endColorstr='#66000000');
+    position: absolute;
+}
+.header > .container {
+    z-index: 3;
+    display: inline-block;
+    position: absolute;
+}
+.box {
+    width: 495px;
+    height: 310px;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+}
+.box * {
+    padding-bottom: 50px;
+}
+.box h1 {
+    text-transform: uppercase;
+}
+.box h1, .box p {
+    color: white;
+}
+.box p {
+    line-height: 1.5;
+}
+
+/*-----whyUs-----*/
+.whyUs {
+    height: 400px;
+    position: relative;
+}
+
+.whyUs p {
+    width: 600px;
+    height: 176px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+/*-----work-----*/
+.work {
+    height: 1433px;
+    background: #181818;
+}
+
+/*-----whatWeDo-----*/
+
+/*-----contactUs-----*/
+.contactUs > .background, .contactUs > .filter, .contactUs > .container {
+    height: 800px;
+    width: 100%;
+}
+.contactUs > .background {
+    z-index: 1;
+    background:url("../images/contactUsBg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.contactUs > .filter {
+    z-index: 2;
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.30), rgba(0,0,0,0.60));
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.30), rgba(0,0,0,0.60));
+    background-image: -o-linear-gradient(top, rgba(0,0,0,0.30), rgba(0,0,0,0.60));
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.30), rgba(0,0,0,0.60));
+    background-image: linear-gradient(top, rgba(0,0,0,0.30), rgba(0,0,0,0.60));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#b2000000', endColorstr='#66000000');
+    position: absolute;
+}
+.contactUs > .container {
+    z-index: 3;
+    display: inline-block;
+    position: absolute;
+}
+.contactBox {
+    text-align: center;
+    background: white;
+    width: 550px;
+    padding: 40px 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.contactBox p {
+    text-transform: uppercase;
+}
+.contactBox h1 {
+    color: black;
+    text-align: center;
+}
+.contactBox ul {
+    list-style:none;
+    margin: 50px 0;
+}
+.contactBox li {
+    margin-bottom: 10px;
+}
+.socialLinks *  {
+    margin: 0 1px;
+    display: inline;
+}
+.socialLinks {
+    margin-top: 10px;
+}
+/*-----footer-----*/
+.footer {
+    height: 150px;
+    line-height: 150px;
+    font-size: 14px;
+    background: #181818;
+    color: white;
+    text-align: center;
+}
+
+/*-----Responsive-----*/
