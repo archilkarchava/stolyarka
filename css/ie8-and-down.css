@@ -2,6 +2,7 @@
 .button {
     behavior: url(/css/PIE.htc);
     border-radius: 100px;
+    padding-bottom: 0;
 }
 
 /*-----header-----*/
