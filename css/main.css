@@ -150,7 +150,7 @@ label {
 
 .header > .background {
     z-index: 1;
-    background:url("../images/header.jpg");
+    background:url("../images/headerOpt.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -226,7 +226,7 @@ label {
 }
 .contactUs > .background {
     z-index: 1;
-    background:url("../images/contactUsBg.jpg");
+    background:url("../images/contactUsBgOpt.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -266,7 +266,7 @@ label {
 }
 .contactBox ul {
     list-style:none;
-    margin: 50px 0;
+    margin: 60px 0;
 }
 .contactBox li {
     margin-bottom: 10px;
